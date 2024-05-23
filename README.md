@@ -53,7 +53,7 @@ Randomly dropped entire feature maps to prevent overfitting.
 Applied transformations to increase the diversity of training data.
 
 ## Conclusion
-Best for Reducing False Negatives: Simplified U-net model with optimal threshold (76.94% recall)
-Best for Reducing False Positives: Simplified U-net model with 0.5 threshold (76.85% precision)
-Overall Balance: Simplified U-net model with optimal threshold offers a better balance between precision and recall.
+- Best for Reducing False Negatives: Simplified U-net model with optimal threshold (76.94% recall)
+- Best for Reducing False Positives: Simplified U-net model with 0.5 threshold (76.85% precision)
+- Overall Balance: Simplified U-net model with optimal threshold offers a better balance between precision and recall.
 
