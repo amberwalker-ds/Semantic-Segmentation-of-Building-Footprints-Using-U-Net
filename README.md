@@ -40,22 +40,22 @@ Using the Keras functional API, a simplified U-Net model was defined and trained
 ## Training
 The model was trained using a batch size of 32 and 20 epochs, with early stopping to minimize validation error.
 
-##Performance Comparison
+## Performance Comparison
 Different techniques (batch normalization, spatial dropout, data augmentation) were applied to improve model performance.
 
-###Batch Normalization
+### Batch Normalization
 Normalized the input of each layer to stabilize and accelerate training.
 
-###Spatial Dropout
+### Spatial Dropout
 Randomly dropped entire feature maps to prevent overfitting.
 
-###Data Augmentation
+### Data Augmentation
 Applied transformations to increase the diversity of training data.
 
-##Performance Metrics
+## Performance Metrics
 Comparison of different model configurations:
 
-Conclusion
+## Conclusion
 Best for Reducing False Negatives: Simplified U-net model with optimal threshold (76.94% recall)
 Best for Reducing False Positives: Simplified U-net model with 0.5 threshold (76.85% precision)
 Overall Balance: Simplified U-net model with optimal threshold offers a better balance between precision and recall.
