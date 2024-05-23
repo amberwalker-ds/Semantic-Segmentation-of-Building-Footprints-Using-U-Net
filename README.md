@@ -52,9 +52,6 @@ Randomly dropped entire feature maps to prevent overfitting.
 ### Data Augmentation
 Applied transformations to increase the diversity of training data.
 
-## Performance Metrics
-Comparison of different model configurations:
-
 ## Conclusion
 Best for Reducing False Negatives: Simplified U-net model with optimal threshold (76.94% recall)
 Best for Reducing False Positives: Simplified U-net model with 0.5 threshold (76.85% precision)
